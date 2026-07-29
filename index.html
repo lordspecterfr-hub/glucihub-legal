@@ -47,6 +47,9 @@ aucun serveur GluciHub où elles pourraient arriver.</p>
 journal ne part donc pas non plus vers votre compte Google. En contrepartie, un changement
 de téléphone demande de passer par « Exporter mes données » puis « Importer des données »
 dans l'écran Réglages.</p>
+<p>Lors d'un export, Android vous demande où créer le fichier JSON. GluciHub peut écrire
+uniquement ce document choisi ; cela ne lui donne aucun accès général à vos autres
+fichiers. Le fichier reste sur l'emplacement sélectionné et n'est transmis à personne.</p>
 
 <h2>La seule connexion sortante</h2>
 <p>L'application interroge <strong>Open Food Facts</strong> (<code>world.openfoodfacts.org</code>)
@@ -91,8 +94,9 @@ l'exigent. Si vous n'utilisez jamais le scan, la bibliothèque n'est jamais soll
     plantages : vérifié sur le fichier d'installation, qui ne contient ni Firebase
     Analytics, ni Crashlytics, ni aucune régie publicitaire ;</li>
   <li>aucune publicité, aucun partage ni vente de données ;</li>
-  <li>aucun accès à votre position, à vos contacts, à vos fichiers ou à vos autres
-    applications.</li>
+  <li>aucun accès à votre position, à vos contacts, à vos autres applications ni accès
+    général à vos fichiers ; seul le document JSON que vous choisissez de créer lors d'un
+    export est écrit par l'application.</li>
 </ul>
 
 <h2>Vos droits, et comment les exercer</h2>
